@@ -3,6 +3,7 @@
     "name": "sit-a-kitty",
     "slug": "sit-a-kitty",
     "version": "1.0.0",
+    "scheme": "com.aimee.sitakitty",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,6 +17,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.aimee.sitakitty",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -28,6 +31,11 @@
     },
     "plugins": [
       "expo-web-browser"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4d164d04-553b-4ee5-9fa5-48bc9f8aad6f"
+      }
+    }
   }
 }
